@@ -45,13 +45,14 @@
            height: 80px;
            padding: 15px;
            
+        
         }
-
+        
         .logo img {
             height: 100%;
         }
 
-        .menu-toggle {
+      .menu-toggle {
             float:right;
             color: gray;
             background-color:white;
@@ -486,6 +487,108 @@
                 height: 350px;
                 background-attachment:scroll;
                 object-fit: cover;
+            }
+        }
+
+        /*   -----      ------        Ajuste para mobile (25/10/2021)    -----     -----*/
+
+        @media  (max-width: 415px){
+            .ContinuarFacebook{
+                padding-left: 53px;
+            }
+            .ContinuarGoogle {
+                padding-left: 53px;
+            }
+            .form {
+                padding: 7px;
+            }
+            .criarContaEmail {
+                width: 393px;
+                margin-left: 1px;
+                align-items: center;
+                justify-content: center;
+                justify-self: center;
+            }
+            .entrarSenha{
+                width: 393px;
+                margin-left: 1px;
+                align-items: center;
+                justify-content: center;
+                justify-self: center;
+            }
+            .form {
+                width: 412px;
+            }
+            .botaoEntrar { 
+                margin-left: 120px;
+            }
+            .encontre {
+                font-size: 1em;
+            }
+            .logo img {
+                margin-top: 13px;
+                height: auto;
+             }
+
+        }
+        @media  (max-width: 280px){
+            .logo img{
+                width: 142px;
+            }
+            .encontre {
+                font-size: 0.65em;
+            }
+            .ContinuarFacebook{
+                padding-left: 25px;
+                font-size: small;
+            }
+            .ContinuarGoogle {
+                font-size: small;
+                padding-left: 26px;
+            }
+            .criarContaEmail {
+                width: 262px;
+                margin-left: 1px;
+                align-items: center;
+                justify-content: center;
+                justify-self: center;
+            }
+            .entrarSenha{
+                width: 262px;
+                margin-left: 1px;
+                align-items: center;
+                justify-content: center;
+                justify-self: center;
+            }
+            .botaoEntrar { 
+                margin-left: 10px;
+                margin-left: 15px;
+            }
+            .btn{
+                
+                margin-left: 20px;
+                padding-left: 20px;
+            }
+        }
+        @media  (max-width: 360px){
+            .botaoEntrar { 
+                margin-left: 90px;
+            }
+            .encontre {
+                font-size: 0.83em;
+            }
+        }
+        @media  (max-width: 320px){
+            .encontre {
+                font-size: 0.74em;
+            }
+            .ContinuarFacebook{
+                padding-left: 25px;
+                font-size:smaller;
+            }
+            .ContinuarGoogle {
+                font-size:smaller;
+                padding-left: 26px;
             }
         }
         /* Icones da Web*/
